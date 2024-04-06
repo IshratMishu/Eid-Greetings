@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import Marquee from "react-fast-marquee";
 import { GiDrippingStar } from "react-icons/gi";
-import bag from "../src/image/gratis-png-basmati-biryani-cocina-india-arroz-y-guisantes-arroz-basmati-removebg-preview.png" ;
+import bag from "../src/image/gratis-png-basmati-biryani-cocina-india-arroz-y-guisantes-arroz-basmati-removebg-preview.png";
 import bgPhoto from "../src/image/30c7395af35bf09c4174a6d1dc603227.jpg"
 
 
@@ -30,13 +30,13 @@ function App() {
           <h1 className='animate-pulse text-red-700'><GiDrippingStar /></h1>
         </div>
         <Marquee>
-          <h1 className='text-lg font-semibold'>ঈদের  চাঁদ  আকাশে, সালামি  দিন  বিকাশে 🥳</h1>
+          <h1 className='text-lg font-semibold'>ঈদের  চাঁদ  আকাশে, সালামি  দিন  বিকাশে 🥳 </h1>
         </Marquee>
       </div>
 
 
 
-      <div className="mt-20 relative" style={{backgroundImage: `url(${bgPhoto})`}}>
+      <div className="mt-20 relative" style={{ backgroundImage: `url(${bgPhoto})` }}>
         <img className={`mx-auto ${isBouncing ? 'animate-bounce' : ''}`} src={bag} alt="" />
 
 
@@ -50,7 +50,7 @@ function App() {
             </form>
             <h3 className="font-bold text-lg py-4">ঈদ আনে বস্তা ভর্তি খুশি,
 
-              তাই তুমি খেয়ো পেট পুরে,
+              তাই আপনি খেয়েন পেট পুরে,
 
               পোলাও আর খাশি। </h3>
             <h1 className="py-4">ঈদ মোবারক</h1>
